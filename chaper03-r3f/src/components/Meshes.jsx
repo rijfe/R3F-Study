@@ -45,14 +45,14 @@ function Meshes(){
             <TorusKnot
                 args={[1,0.2,128,128,2,3]}
                 material-color={"teal"}
-                position={[0,1.6,0]}
+                position={[-3,1.6,0]}
                 receiveShadow
                 castShadow
             >
-                <meshStandardMaterial color={0xff0000} roughness={0.5} metalness={1}/>
+                <meshStandardMaterial color={0xffffff}/>
             </TorusKnot>
 
-            <TorusKnot
+            {/* <TorusKnot
                 args={[1,0.2,128,128,2,3]}
                 position={[5,1.6,0]}
                 receiveShadow
@@ -77,7 +77,7 @@ function Meshes(){
                 castShadow
             >
                 <meshDepthMaterial opacity={0.5}/>
-            </TorusKnot>
+            </TorusKnot> */}
         </>
     );
 }
