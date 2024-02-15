@@ -20,7 +20,7 @@ function Lights(){
         <>
             {/* <ambientLight args={[0xffffff, 5]}/> */}
 
-            {/* <directionalLight
+            <directionalLight
                 castShadow
                 ref={lightRef}
                 args={[0xffffff, 5]} 
@@ -33,7 +33,7 @@ function Lights(){
                 shadow-camera-far={1000}
                 shadow-mapSize-width={4096}
                 shadow-mapSize-height={4096}
-            /> */}
+            />
 
             {/* <pointLight ref={lightRef} args={[0xffffff, 10, 10, 1]} position-y={2} castShadow={true}/> */}
 
@@ -43,7 +43,7 @@ function Lights(){
 
             {/* <spotLight ref={lightRef} args={[0xffffff, 10, 100, Math.PI/4, 1, 0.5]} castShadow position={[3,3,3]}/> */}
 
-            <SpotLight 
+            {/* <SpotLight 
                 color={0xffffff} 
                 intensity={10} 
                 distance={100} 
@@ -59,7 +59,7 @@ function Lights(){
                 debug
                 position={[3,3,3]}
                 target={target}
-            />
+            /> */}
         </>
     );
 }

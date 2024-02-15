@@ -49,7 +49,7 @@ function Meshes(){
                 receiveShadow
                 castShadow
             >
-                <meshStandardMaterial color={0xffffff}/>
+                <meshStandardMaterial color={0xff0000}/>
             </TorusKnot>
 
             {/* <TorusKnot
