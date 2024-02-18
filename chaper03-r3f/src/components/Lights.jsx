@@ -4,17 +4,17 @@ import * as THREE from "three";
 
 function Lights(){
     const lightRef = useRef(null);
-    const targetRef = useRef(null);
-    const [target, setTarget] = useState();
+    // const targetRef = useRef(null);
+    // const [target, setTarget] = useState();
 
     //useHelper(lightRef, THREE.DirectionalLightHelper,3,0xffff00);
     //useHelper(lightRef, THREE.PointLightHelper,1,0xffff00);
     // useHelper(lightRef, THREE.HemisphereLightHelper,1,0xffff00);
     // useHelper(lightRef, THREE.SpotLightHelper,1,0xffff00);
 
-    useEffect(()=>{
-        if(targetRef.current) setTarget(targetRef.current);
-    },[])
+    // useEffect(()=>{
+    //     if(targetRef.current) setTarget(targetRef.current);
+    // },[])
 
     return (
         <>

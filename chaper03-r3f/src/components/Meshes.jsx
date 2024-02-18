@@ -42,7 +42,7 @@ function Meshes(){
                 material-color={"hotpink"}
             /> */}
 
-            <TorusKnot
+            {/* <TorusKnot
                 args={[1,0.2,128,128,2,3]}
                 material-color={"teal"}
                 position={[-3,1.6,0]}
@@ -50,7 +50,7 @@ function Meshes(){
                 castShadow
             >
                 <meshStandardMaterial color={0xff0000}/>
-            </TorusKnot>
+            </TorusKnot> */}
 
             {/* <TorusKnot
                 args={[1,0.2,128,128,2,3]}
